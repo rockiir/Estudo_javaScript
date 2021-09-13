@@ -29,11 +29,11 @@ Repositório destinado ao Estudo de JavaScript conhecimentos adquiridos em curso
 
 ### Insta fake
 
-![]()
+![](https://github.com/rockiir/Estudo_javaScript/blob/main/img_README/chrome_NBv0fKAeos.png)
 
 ### Netflixy
 
-![]()
+![](https://github.com/rockiir/Estudo_javaScript/blob/main/img_README/UIQICRPgL7.gif)
 
 ### Jogo de Naves
 
