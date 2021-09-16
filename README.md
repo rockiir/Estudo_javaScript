@@ -39,6 +39,8 @@ Repositório destinado ao Estudo de JavaScript conhecimentos adquiridos em curso
 
 ### Jogo da velha
 
+![]()
+
 ### Genius
 
 ------
