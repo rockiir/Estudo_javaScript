@@ -39,7 +39,7 @@ Repositório destinado ao Estudo de JavaScript conhecimentos adquiridos em curso
 
 ### Jogo da velha
 
-![]()
+![](https://github.com/rockiir/Estudo_javaScript/blob/main/img_README/velha.gif)
 
 ### Genius
 
