@@ -38,7 +38,9 @@ Repositório destinado ao Estudo de JavaScript conhecimentos adquiridos em curso
 ### Jogo de Naves
 
 ### Jogo da velha
-
+Video aulas do professor: Vitor RusChoNi
+Plataforma: Digital Innovation One
+....
 ![](https://github.com/rockiir/Estudo_javaScript/blob/main/img_README/velha.gif)
 
 ### Genius
