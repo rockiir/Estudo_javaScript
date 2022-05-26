@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>modelo</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+
+  <section class="container">
+    <h1>Calcule seu IMC</h1>
+    <table>
+      <tr>
+        <th>Muito abaixo do peso</th>
+        <th>16 a 16,9 kg/m2 </th>
+      </tr>
+      <tr>
+        <th>Abaixo do peso </th>
+        <th>17 a 18,4 kg/m2</th>
+      </tr>
+      <tr>
+        <th>Peso normal </th>
+        <th>18,5 a 24,9 kg/m2</th>
+      </tr>
+      <tr>
+        <th>Acima do peso </th>
+        <th>25 a 29,9 kg/m2</th>
+      </tr>
+      <tr>
+        <th>Obesidade </th>
+        <th>30 acima</th>
+      </tr>
+    </table>
+    <form action="/" id="formulario" method="POST">
+      <label for="peso">Peso</label>
+      <input type="text" id="peso" name="peso">
+      <label for="altura">Altura</label>
+      <input type="text" id="altura" name="altura">
+      <button type="submit">Enviar</button>
+    </form>
+
+    <div id="resultado"></div>
+  </section>
+
+  <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
