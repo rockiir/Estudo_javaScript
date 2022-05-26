@@ -5,8 +5,6 @@
 ! -> Not -> Não 
 */
 
-
-
 const expressaoAnd = true && true && false && true;
 const expressaoOR = false || true ;
 const expressaoNot = 

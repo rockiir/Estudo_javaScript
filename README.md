@@ -11,13 +11,8 @@ Repositório destinado ao Estudo de JavaScript conhecimentos adquiridos em curso
   - Estudo geral
     - Básico
     - Exercícios de Lógica
-  - Projetos
   - Experimentos variados
 - TypeScript
-
-
-
-
 
 ------
 
@@ -38,6 +33,7 @@ Repositório destinado ao Estudo de JavaScript conhecimentos adquiridos em curso
 ### Jogo de Naves
 
 ### Jogo da velha
+
 Video aulas do professor: Vitor RusChoNi
 Plataforma: Digital Innovation One
 ....
@@ -48,4 +44,3 @@ Plataforma: Digital Innovation One
 ------
 
 Insta Fake
-
