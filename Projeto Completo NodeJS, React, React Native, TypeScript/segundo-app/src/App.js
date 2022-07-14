@@ -13,7 +13,7 @@ function App() {
 }},[]);
     
     useEffect(() => {
-      localStorage.setItem('@tarefa', JSON.stringify(tarefas));
+      localStorage.setItem('@tarefa', JSON.stringify(tarefas))
     }, [tarefas]);
 
     function handleRegister(e) {
