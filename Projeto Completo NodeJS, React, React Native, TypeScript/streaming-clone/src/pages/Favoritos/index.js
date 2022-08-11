@@ -32,7 +32,7 @@ let filtrofilmes = filmes.filter((item) => {
                         <li key={item.id}>
                         <span>{item.title}</span>
                         <div>
-                           <Link to={`/filmes/${item.id}`}>Ver detalhes</Link> 
+                           <Link to={`/filme/${item.id}`}>Ver detalhes</Link> 
                            <button onClick={() => excluirFilmes(item.id)}>Excluir</button>
                         </div>
                         </li>

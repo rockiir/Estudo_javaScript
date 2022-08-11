@@ -1,7 +1,13 @@
 import { useEffect, useState } from 'react';
+import Banner from '../Banner';
+
 import { Link } from 'react-router-dom';
 import api from '../../services/api';
 import './home.css';
+import { Button } from 'react-bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+
 
 
 function Home() {
@@ -37,25 +43,31 @@ function Home() {
 
     return (
 
-
+<div className="page">
+<Banner />
         <div className="container">
+
             <div className="lista-filmes">
+                
                 {filmes.map((filme) => {
 
                     return (<Link to={`/filme/${filme.id}`}>
                         <article key={filme.id}>
                         <p>  {filme.vote_count}</p>
+                        
 
                             <img src={`https://image.tmdb.org/t/p/original/${filme.poster_path}`} alt={filme.title} />
                             <div>
                                 <Link to={`/filme/${filme.id}`} className="filmes"> {filme.title}</Link>
                                 <p>  {filme.vote_average}</p>
+                                <Button variant="primary">Primary</Button>{' '}
                             </div>
 
                         </article>  </Link>
                     )
                 })}
             </div>
+        </div>
         </div>
     )
 }
