@@ -1,5 +1,6 @@
 import { Carousel } from 'react-bootstrap';
 import api from '../../services/api';
+import './Banner.css';
 
 function banner() {
     
