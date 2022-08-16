@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,16 +8,21 @@
     <title>HTML introdução</title>
 
     <style>
-        body{
+        body {
             background-color: rgb(216, 208, 208);
         }
 
-        .imagem{
-            width:300px;
+        .imagem {
+            width: 300px;
+
+        }
+        .section-one, .section-two {
+            box-sizing: border-box;
 
         }
     </style>
 </head>
+
 <body>
     <article>
         <h2>HEADER</h2>
@@ -33,16 +39,16 @@
         </section>
     </article>
 
-<aside>
-    <nav class="navbar navbar-">
-        <ul>
-            <li><a href="">teste</a></li>
-            <li><a href="">teste</a></li>
-            <li><a href="">teste</a></li>
-            <li><a href="">teste</a></li>
-        </ul>
-    </nav>
-</aside>
+    <aside>
+        <nav class="navbar navbar-">
+            <ul>
+                <li><a href="">teste</a></li>
+                <li><a href="">teste</a></li>
+                <li><a href="">teste</a></li>
+                <li><a href="">teste</a></li>
+            </ul>
+        </nav>
+    </aside>
 
     <h1 id="heading" class="heading red-border" style="background-color:red ">Teste</h1>
     <h2 id="heading1"> teste </h2>
@@ -50,13 +56,18 @@
     <h4 id="heading3"> teste</h4>
     <h5 id="heading4"> teste</h5>
     <h6 id="heading5"> teste</h6>
-    <p id="agradecimento">Lorem ipsum dolor <b>Lorem, ipsum dolor.</b>sit,<i>lorem ipsum dolor sit amet</i> <em>Lorem, ipsum dolor sit amet </em> <s>Lorem ipsum dolor sit amet.</s> <ins>Lorem ipsum dolor sit amet.</ins> <small>Lorem, ipsum dolor.</small> 2<sup>2</sup> H<sub>2</sub> ipsum dolor sit amet<strong>Lorem ipsum dolor</strong>     <q>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</q>
+    <p id="agradecimento">Lorem ipsum dolor <b>Lorem, ipsum dolor.</b>sit,<i>lorem ipsum dolor sit amet</i> <em>Lorem,
+            ipsum dolor sit amet </em> <s>Lorem ipsum dolor sit amet.</s> <ins>Lorem ipsum dolor sit amet.</ins>
+        <small>Lorem, ipsum dolor.</small> 2<sup>2</sup> H<sub>2</sub> ipsum dolor sit amet<strong>Lorem ipsum
+            dolor</strong> <q>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</q>
     </p>
     <a href="#" target="_blank">link para site</a>
     <br>
-    <img src="/img_README/pbd5cRWwFc.jpg" alt="teste" class="imagem">
+    <img src="/image/71kkMXAcLCL.png" alt="teste" class="imagem">
     <br>
-    <blockquote>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi ipsum nobis repudiandae quas iure alias explicabo dignissimos perferendis molestias error.<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, nobis.</p>
+    <blockquote>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi ipsum nobis repudiandae quas iure alias
+        explicabo dignissimos perferendis molestias error.<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Aspernatur, nobis.</p>
     </blockquote>
     <hr>
     <pre><code class="">
@@ -66,9 +77,45 @@
         }
      </code></pre>
 
-    <span class="link-blue" style="text-decoration: underline">Lorem ipsum dolor sit amet consectetur adipisicing elit. In, dolore.</span>
+    <span class="link-blue" style="text-decoration: underline">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        In, dolore.</span>
     <div>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti, numquam.</div>
-<hr>
-<footer>textarea</footer>
+    <hr>
+    <div style="width:100px; height: 100px; background-color:brown;">
+        <div style="width:50px; height: 50px; background-color:rgb(5, 255, 25);float: left;"></div>
+        <div style="width:50px; height: 50px; background-color:rgb(23, 8, 243);float: left;"></div>
+        <div style="width:50px; height: 50px; background-color:rgb(243, 8, 184);float: left;"></div>
+    </div>
+    <hr>
+    <h1>Box model</h1>
+    <div>
+        <section class="section-one" 
+        style=" width: 300px; 
+        height: 200px; 
+        background-color: rgb(238, 6, 6); 
+        border-bottom-width: 10px;
+        border-bottom-color: red ;
+        border-bottom-style: solid;
+        padding: 0 0 100px 0;
+        background-image: url(image/71kkMXAcLCL.png);
+        background-size: cover ;
+        background-position: center center;
+        color: rgb(0,0,0);
+        margin: 20px;
+
+        ">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae a, laborum in tempora consequatur quibusdam!</section>
+        <section class="section-two" 
+        style=" width: 300px; 
+        height: 200px; 
+        background-color: rgb(55, 0, 253); 
+        border: 1px; 
+        padding: 15px;
+        border: 10px solid black; 
+
+        ">2</section>
+
+    </div>
+    <footer>textarea</footer>
 </body>
+
 </html>
