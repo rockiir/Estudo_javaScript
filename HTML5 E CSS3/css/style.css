@@ -1,0 +1,122 @@
+*{
+    background-color: #e4e4e4;
+    margin: 0;
+    padding: 0;
+}
+/* classe*/
+.caixa{
+    background: red;
+    height: 130px;
+    width: 130px;
+}
+
+/*aplica estilo em mais de uma tag no caminho */
+body div section p,
+body div section h1,
+body div section .h2texto,
+body div section .h2texto .ptexto{
+    color: #58d11f  ;
+
+}
+/*seleciona classe com ambas as  classes indicadas
+ tendo de haver  ambas as classes */
+.h2texto.h1texto{
+    font-style: italic;
+}
+
+/*seleciona tag dentro da outra*/
+.pai>.filha{
+    color: aqua;
+}
+
+/*adjacent simbling selector - 
+seleciona todas as tags depois 
+do caminho indicado*/
+
+.teste h1+p{
+    color:#efff0d;
+}
+/*seleciona varias com a mesma classe*/
+.varias .um~.dois{
+    color:#380bff;
+}
+/*seleção por atributo*/
+[meu-atributo]{
+    color: rgb(92, 255, 241) !important;
+}
+[meu-atributo="A"]{
+    color: rgb(255, 92, 92) !important;
+}
+
+
+/*Pseudo classes-----------------------------------------------------------------------------
+*/
+
+.pseudo-classes .um:hover{
+background:red;
+color: #380bff;
+
+/*animação*/
+}
+.pseudo-classes .um {
+transition: all 200ms ease-in-out;
+
+}
+/*link visitado*/
+.link-visitado:visited{
+    color: #58d11f;
+
+}
+/*alteração de cor ao pressionar*/
+.link-visitado:active{
+    background: #58d11f;
+
+}
+/*ao selecionar o input*/
+.input-foco:focus {
+background: #58d11f;
+box-shadow: 0 0 5px rgba(238, 14, 14, 0.5);
+outline:none ;
+border: 1px solid black;
+}
+.input-desativado:disabled {
+background: #a0b1eb;
+cursor: not-allowed;
+}
+/*exceto*/
+.classep:not(.menos){
+    background: #f822c3;    
+
+}
+
+.input-check:not(:checked) + p{
+    background: #09fd32;    
+}
+
+/*seleciona pares (even) impares (odd)
+numero do indice e etc...*/
+.lista-nth-child li:nth-child(even){
+    background: #ff4901;
+}
+.lista-nth-child li:nth-child(odd){
+    background: #6c01f7;
+}
+
+.overflow{
+    display: block;
+    width: 200px;
+    height: 200px;
+    overflow: auto;
+
+}
+
+
+
+
+
+
+
+
+
+
+

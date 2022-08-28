@@ -16,9 +16,18 @@
             width: 300px;
 
         }
-        .section-one, .section-two {
+
+        .section-one,
+        .section-two {
             box-sizing: border-box;
 
+        }
+        .tabela th, td{
+            border:3px solid red;
+            border-spacing: 0px;
+        }
+        .tabela tfoot{
+            background-color: rgb(141, 141, 141);
         }
     </style>
 </head>
@@ -89,8 +98,7 @@
     <hr>
     <h1>Box model</h1>
     <div>
-        <section class="section-one" 
-        style=" width: 300px; 
+        <section class="section-one" style=" width: 300px; 
         height: 200px; 
         background-color: rgb(238, 6, 6); 
         border-bottom-width: 10px;
@@ -103,9 +111,9 @@
         color: rgb(0,0,0);
         margin: 20px;
 
-        ">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae a, laborum in tempora consequatur quibusdam!</section>
-        <section class="section-two" 
-        style=" width: 300px; 
+        ">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae a, laborum in tempora consequatur quibusdam!
+        </section>
+        <section class="section-two" style=" width: 300px; 
         height: 200px; 
         background-color: rgb(55, 0, 253); 
         border: 1px; 
@@ -114,7 +122,215 @@
 
         ">2</section>
 
-    </div>
+        <hr>
+        <h1>Lista HTML</h1>
+
+        <nav style="height: 50px; 
+        background-color: black; 
+        display:flex; 
+        justify-content: center; 
+        align-self: center;
+        text-transform: uppercase;
+        ">
+            <ul style="
+            color: white; 
+            text-decoration: none; 
+            font-family: Helvetica;
+            display: flex;
+            list-style-type: none;
+            padding: 5px;
+            
+
+            ">
+                <li><a href="#" style="display:block; padding: 10px; ">Home</a> </li>
+                <li><a href="#"style="display:block; padding: 10px;">Sobre</a> </li>
+                <li><a href="#"style="display:block; padding: 10px;">Produtos </a> </li>
+            </ul>
+        </nav>
+        <ul>
+            <li>item 1</li>
+            <li>item 2</li>
+            <li>item 3</li>
+        </ul>
+
+        <ol type="I" start="2">
+            <li>item 1</li>
+            <li>item 2</li>
+            <li>item 3</li>
+        </ol>
+
+        <dl>
+            <dt>Café </dt>
+            <dd> bebida | quente </dd>d
+            <dd> bebida | quente </dd>
+
+            <dt>chá </dt>
+            <dd> bebida | quente </dd>
+            <dd> bebida | quente </dd>
+
+        </dl>
+</div>
+        <hr>
+        <h1>Tabelas</h1>
+<table class="tabela">
+    <caption> descrição da tabela</caption>
+    <thead class="head-tabela">
+        <tr class="tabela-tr">
+            <th> Titulo 1</th>
+            <th> Titulo 2</th>
+            <th> Titulo 3</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td colspan="2" > Corpo 1</td>
+            <td> Corpo 2</td>
+        </tr>
+        <tr>
+            <td> Corpo 1</td>
+            <td> Corpo 2</td>
+            <td rowspan="2"> Corpo 3</td>
+        </tr>
+        <tr>
+            <td> Corpo 1</td>
+            <td> Corpo 2</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <td> Corpo 1</td>
+            <td> Corpo 2</td>
+            <td> Corpo 3</td>
+        </tr>
+    </tfoot>
+
+   
+</table>
+<hr>
+<h1>Formulario</h1>
+<form action="#" method="get" target="_blank" autocomplete="off">
+    <section>
+        <h1></h1>
+        <p></p>
+        <fieldset>
+            <legend>descricao</legend>
+            <p> <label for="" style="cursor:pointer;">
+                    Nome
+
+                    <input type="text" id="" name="" placeholder="Nome">
+                </label>
+            </p>
+            <p> <label for="dev" style="cursor:pointer;">
+                    Você é desenvolvedor?
+
+                    <input type="text" id="dev" name="dev" placeholder="Sou desenvolvedor">
+                </label>
+            </p>
+            <p> <label for="date" style="cursor:pointer;">
+                    data
+                    <input type="date" id="datetime" name="datetime" placeholder="Sou desenvolvedor"
+                        value="2022-08-17">
+                </label>
+            </p>
+            <p> <label for="datetime" style="cursor:pointer;">
+                    data e hora
+                    <input type="datetime-local" id="datetime" name="datetime" placeholder="Sou desenvolvedor"
+                        value="2022-08-17T13:37">
+                </label>
+            </p>
+            <p> <label for="datetime" style="cursor:pointer;">
+                    corfavorita:
+                    <input type="color" id="color" name="Color" placeholder="color" value="#ff0055">
+                </label>
+            </p>
+
+            <p>
+            <p>Genero:</p>
+            <label for="" style="cursor:pointer;">
+                feminino
+                <input type="radio" id="fem" name="gen">
+            </label>
+            <p> <label for="" style="cursor:pointer;">
+                    masculino
+                    <input type="radio" id="masc" name="gen" checked>
+                </label>
+            </p>
+            <p> <label for="" style="cursor:pointer;">
+                    Email
+                    <input type="email" id="ok" name="ok" placeholder="joão@email.com">
+                </label>
+            </p>
+            <p> <label for="" style="cursor:pointer;">
+                    Email
+                    <input type="" id="" name="" accept=".jpeg, .png, .svg, image/* ">
+                </label>
+            </p>
+            <p> <label for="" style="cursor:pointer;">
+                    Numero
+                    <input type="number" id="" name="" placeholder="digite um numero" min="1" max="10">
+                </label>
+            </p>
+            <p> <label for="" style="cursor:pointer;">
+                    url
+                    <input type="url" id="" name="" placeholder="http://">
+                </label>
+            </p>
+            <p> <label for="" style="cursor:pointer;">
+                    range
+                    <input type="range" id="range" name="" placeholder="digite um numero" min="1" max="100" value="50" list="tickmarks">
+                    <datalist id="tickmarks">
+                        <option value="0" label="0%">
+                        <option value="10">
+                        <option value="20">
+                        <option value="30">
+                        <option value="40">
+                        <option value="50" label="50%">
+                        <option value="60">
+                        <option value="70">
+                        <option value="80">
+                        <option value="90">
+                        <option value="100" label="100%">
+                      </datalist>
+                </label>
+            </p>
+            <p> <label for="" style="cursor:pointer;">
+                    Senha
+                    <input type="password" id="" name="" placeholder="****">
+                </label>
+            </p>
+            <p> <label for="" style="cursor:pointer;">
+                    texto 
+                    <br>
+<textarea name="" id="" cols="30" rows="10"></textarea>                    
+</label>
+            </p>
+            <p> <label for="textarea" style="cursor:pointer;">
+                    seleção
+                    <select type="select" id="" name="select" >
+                    <option value="qualquer" label="valor" disabled></option>
+                    <option value="qualquer2" label="valor2"selected></option>
+                    <option value="qualquer3" label="valor3"></option>
+                    <option value="qualquer4" label="valor4"></option>
+                    <option value="qualquer5" label="valor5"></option>
+                </label>
+            </select>
+            </p>
+            <p> <label for="" style="cursor:pointer;">
+                    Confirmo que aceito os termos de desenvolvedor
+
+                    <input type="checkbox" id="ok" name="ok" required>
+                    
+                </label>
+            </p>
+            <p>
+                <button type="submit" id="">Submit</button>
+                <button type="reset" id="">Reset</button>
+            </p>
+        </fieldset>
+    </section>
+</form>
+
+    
     <footer>textarea</footer>
 </body>
 
