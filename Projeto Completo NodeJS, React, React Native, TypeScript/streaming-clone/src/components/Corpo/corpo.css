@@ -3,7 +3,10 @@
   grid-template-columns: repeat(5,1fr);
 }
  
-.lista-filmes Container{
+.lista-filmes Card{
+  height: 100px;
+  width: 100px;
 
 }
+
  
