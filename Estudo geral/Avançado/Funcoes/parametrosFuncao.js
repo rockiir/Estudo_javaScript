@@ -9,5 +9,18 @@ console.log(total, a, b, c);
 }
 
 
-funcao( 1, 12, 3);
+funcao( 1, 2, 3, 4, 5, 6);
 
+
+
+function conta(operador, acumulador, ...numeros){
+for ( let numero of numeros ) {
+    if (operador === '+') acumulador += numero;
+    if (operador === '-') acumulador -= numero;
+    if (operador === '/') acumulador /= numero;
+    if (operador === '*') acumulador *= numero;
+}
+console.log(acumulador);
+
+}
+conta('-',1, 2, 3, 4, 5, 6);
