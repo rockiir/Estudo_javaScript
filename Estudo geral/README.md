@@ -1,18 +1,49 @@
 Aulas feitas ao longo prazo no Curso # [Curso de JavaScript e TypeScript do básico ao avançado 2022](https://www.udemy.com/course/curso-de-javascript-moderno-do-basico-ao-avancado/)
 
-
-
 - Basico
-  - Variaveis
-  - Arrays
-  - Desestruturação
-  - Estrutura de repetição
+  - Alert_confirm_prompt
+  - arrays
+  - atribuicao
+  - Boleanos
+  - comentarios
+  - consoleLog.
+  - Constantes
+  - date
+  - Desestruturacao
+  - Estrutura Condicional
+  - EstruturaRepeticao
+  - exerc_func_array_obj
+  - Função
+  - hoisting
+  - htmlJavaScript
   - Math
-  - Objetos
-  - Tipos de dados
+  - notacaoPonto
+  - nullUndefined
+  - Numeros
+  - Obj
+  - Operaçãoo Ternária
+  - Operadores
+  - parNomeValor
+  - Primitivos
+  - setTimerSetTimeout
+  - String
   - Strings
-  - Prompt
-  - 
+  - templateString
+  - Tipagem Fraca
+  - tipo_dados
+  - Tratando Erros
+  - variaveist
+  
+  
+- Avançado
+- 
+
+
+
+
+
+
+
 - Exercicios de logica
   - Exercicio Math
   - Exercicio de strings
@@ -25,8 +56,5 @@ Aulas feitas ao longo prazo no Curso # [Curso de JavaScript e TypeScript do bás
   - Variaveis
   - Conversor de medidas
   - Console
-  - 
-
-
 
 
