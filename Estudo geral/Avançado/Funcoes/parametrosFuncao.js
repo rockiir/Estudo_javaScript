@@ -11,7 +11,7 @@ console.log(total, a, b, c);
 
 funcao( 1, 2, 3, 4, 5, 6);
 
-
+//-------------
 
 function conta(operador, acumulador, ...numeros){
 for ( let numero of numeros ) {
