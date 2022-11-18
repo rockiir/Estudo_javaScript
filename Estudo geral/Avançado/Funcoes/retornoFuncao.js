@@ -10,8 +10,8 @@ const duplica = criaMultiplicador(2);
 const triplica = criaMultiplicador(3);
 const quadriplica= criaMultiplicador(4);
 
-
-
 console.log(duplica(3));
 console.log(triplica(5));
 console.log(quadriplica(10));
+
+
