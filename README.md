@@ -1,6 +1,6 @@
 # Estudo de JavaScript
 
-Repositório destinado ao Estudo de JavaScript conhecimentos adquiridos em cursos online e na faculdade.
+Este é o repositório pessoal de um aluno aprendendo as tecnologias de JavaScript, CSS, HTML e TypeScript. Aqui você pode encontrar projetos e exemplos de código criados durante o processo de aprendizado.
 
 ------
 
@@ -44,4 +44,12 @@ Plataforma: Digital Innovation One
 
 ------
 
-Insta Fake
+Insta Fake   
+
+
+
+
+
+## Contribuir
+
+Este é um repositório pessoal de estudos, mas ficarei feliz em receber qualquer feedback ou contribuição de outros desenvolvedores. Sinta-se à vontade para abrir uma issue ou fazer uma pull request.
